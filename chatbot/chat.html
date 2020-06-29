@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <link rel="stylesheet" href="./styles/chat-style.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+    <a href="index.html"><i class="fa fa-arrow-left"></i></a>
+    <section class="msger">
+        
+        <header class="msger-header">
+          <div class="msger-header-title">
+            <i class="fas fa-comment-alt"></i> Rohit-ecommerce
+          </div>
+          <div class="msger-header-options">
+            <span><i class="fas fa-cog"></i></span>
+          </div>
+        </header>
+      
+        <main class="msger-chat">
+          <div class="msg left-msg">
+            <div
+             class="msg-img"
+             style="background-image: url(https://image.flaticon.com/icons/svg/327/327779.svg)"
+            ></div>
+      
+            <div class="msg-bubble">
+              <div class="msg-info">
+                <div class="msg-info-name">BOT</div>
+                <div class="msg-info-time">12:45</div>
+              </div>
+      
+              <div class="msg-text">
+               <h3 id = "greet">Hello, welcome to our ecommerce website! How can I help you ?</h3>
+              </div>
+            </div>
+          </div>
+      
+          
+        </main>
+      
+        <form class="msger-inputarea" name = "msger-inputarea">
+          <input type="text" class="msger-input" placeholder="Enter your message..." name = "usermessage">
+          <button type="submit" class="msger-send-btn">Send</button>
+        </form>
+      </section>
+      <script src="./js/app.js"></script>
+</body>
+</html>
