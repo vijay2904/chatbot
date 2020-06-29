@@ -163,5 +163,9 @@
       color: #000;
   }
 
-
+    @media screen and (max-width: 479px) {
+         .fa-arrow-left {
+             display:hidden;
+        }
+    }
   
