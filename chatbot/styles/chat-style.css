@@ -164,7 +164,7 @@
   }
     @media screen and (max-width: 479px) {
             .fa-arrow-left {
-                display:hidden;
+                display:none;
         }
     }
 
